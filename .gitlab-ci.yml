@@ -1,0 +1,10 @@
+stages:
+  - build
+  - deploy
+
+deploy_to_preproduction:
+stage: deploy
+script:
+  - echo "Deploying to preproduction server..."
+  # Comment
+  - Copy-Item -Path ".\Preproduccion\*" -Destination "C:\Users\pmimarc\Desktop\Projects\Pruebas-CI\Preproduccion" -Force -Recurse
