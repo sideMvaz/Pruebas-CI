@@ -14,5 +14,5 @@ jobs:
         run: |
           echo "Deploy"
           # Ejemplo:
-          Copy-Item -Path ".\Preproduccion\*" -Destination "C:\Users\pmimarc\Desktop\Projects\Pruebas-CI" -Force -Recurse
+          Copy-Item -Path "C:\Users\pmimarc\Desktop\Projects\Pruebas-CI" -Destination "C:\Users\pmimarc\Desktop\Projects\Pruebas-CI\Preproduccion" -Force -Recurse
         
